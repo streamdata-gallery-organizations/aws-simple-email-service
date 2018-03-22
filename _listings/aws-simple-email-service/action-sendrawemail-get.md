@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendRawEmail&k=1:
+  /?Action=SendRawEmail:
     get:
       summary: ' Send Raw Email '
       description: Sends an email message, with header and content specified by the
