@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReceiptRuleSet&k=1:
+  /?Action=DeleteReceiptRuleSet:
     get:
       summary: ' Delete Receipt Rule Set '
       description: Deletes the specified receipt rule set and all of the receipt rules
