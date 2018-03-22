@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSendQuota&k=1:
+  /?Action=GetSendQuota:
     get:
       summary: ' Get Send Quota '
       description: Returns the user's current sending limits
