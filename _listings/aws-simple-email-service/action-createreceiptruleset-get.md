@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReceiptRuleSet&k=1:
+  /?Action=CreateReceiptRuleSet:
     get:
       summary: ' Create Receipt Rule Set '
       description: Creates an empty receipt rule set
