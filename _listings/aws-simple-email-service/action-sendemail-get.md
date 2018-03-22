@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendEmail&k=1:
+  /?Action=SendEmail:
     get:
       summary: ' Send Email '
       description: Composes an email message based on input data, and then immediately
