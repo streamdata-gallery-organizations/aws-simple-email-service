@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListIdentities&k=1:
+  /?Action=ListIdentities:
     get:
       summary: ' List Identities '
       description: Returns a list containing all of the identities (email addresses
