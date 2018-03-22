@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetIdentityVerificationAttributes&k=1:
+  /?Action=GetIdentityVerificationAttributes:
     get:
       summary: ' Get Identity Verification Attributes '
       description: Given a list of identities (email addresses and/or domains), returns
