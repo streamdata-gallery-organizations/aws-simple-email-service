@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateConfigurationSetEventDestination&k=1:
+  /?Action=CreateConfigurationSetEventDestination:
     get:
       summary: ' Create Configuration Set Event Destination '
       description: Creates a configuration set event destination
