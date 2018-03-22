@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConfigurationSetEventDestination&k=1:
+  /?Action=DeleteConfigurationSetEventDestination:
     get:
       summary: ' Delete Configuration Set Event Destination '
       description: Deletes a configuration set event destination
