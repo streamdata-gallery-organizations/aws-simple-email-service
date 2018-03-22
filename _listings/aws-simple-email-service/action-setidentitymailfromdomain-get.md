@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetIdentityMailFromDomain&k=1:
+  /?Action=SetIdentityMailFromDomain:
     get:
       summary: ' Set Identity Mail From Domain '
       description: Enables or disables the custom MAIL FROM domain setup for a verified
