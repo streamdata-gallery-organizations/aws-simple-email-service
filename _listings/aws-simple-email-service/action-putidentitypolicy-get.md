@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutIdentityPolicy&k=1:
+  /?Action=PutIdentityPolicy:
     get:
       summary: ' Put Identity Policy '
       description: Adds or updates a sending authorization policy for the specified
