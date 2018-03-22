@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=VerifyDomainIdentity&k=1:
+  /?Action=VerifyDomainIdentity:
     get:
       summary: ' Verify Domain Identity '
       description: Verifies a domain
