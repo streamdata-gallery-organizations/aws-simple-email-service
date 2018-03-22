@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReorderReceiptRuleSet&k=1:
+  /?Action=ReorderReceiptRuleSet:
     get:
       summary: ' Reorder Receipt Rule Set '
       description: Reorders the receipt rules within a receipt rule set
