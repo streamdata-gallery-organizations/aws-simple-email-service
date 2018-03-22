@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReceiptFilter&k=1:
+  /?Action=CreateReceiptFilter:
     get:
       summary: ' Create Receipt Filter '
       description: Creates a new IP address filter
