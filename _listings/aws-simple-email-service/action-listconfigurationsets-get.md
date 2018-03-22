@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListConfigurationSets&k=1:
+  /?Action=ListConfigurationSets:
     get:
       summary: ' List Configuration Sets '
       description: Lists the configuration sets associated with your AWS account
