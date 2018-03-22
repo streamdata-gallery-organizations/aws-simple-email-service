@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CloneReceiptRuleSet&k=1:
+  /?Action=CloneReceiptRuleSet:
     get:
       summary: ' Clone Receipt Rule Set '
       description: Creates a receipt rule set by cloning an existing one
