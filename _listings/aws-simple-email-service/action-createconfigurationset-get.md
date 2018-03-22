@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateConfigurationSet&k=1:
+  /?Action=CreateConfigurationSet:
     get:
       summary: ' Create Configuration Set '
       description: Creates a configuration set
