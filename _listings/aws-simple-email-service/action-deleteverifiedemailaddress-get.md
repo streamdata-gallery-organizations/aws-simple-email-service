@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVerifiedEmailAddress&k=1:
+  /?Action=DeleteVerifiedEmailAddress:
     get:
       summary: ' Delete Verified Email Address '
       description: Deletes the specified email address from the list of verified addresses
