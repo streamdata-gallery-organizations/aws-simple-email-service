@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListReceiptFilters&k=1:
+  /?Action=ListReceiptFilters:
     get:
       summary: ' List Receipt Filters '
       description: Lists the IP address filters associated with your AWS account
