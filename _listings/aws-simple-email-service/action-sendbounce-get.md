@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendBounce&k=1:
+  /?Action=SendBounce:
     get:
       summary: ' Send Bounce '
       description: Generates and sends a bounce message to the sender of an email
