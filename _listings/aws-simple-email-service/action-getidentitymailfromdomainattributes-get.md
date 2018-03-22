@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetIdentityMailFromDomainAttributes&k=1:
+  /?Action=GetIdentityMailFromDomainAttributes:
     get:
       summary: ' Get Identity Mail From Domain Attributes '
       description: Returns the custom MAIL FROM attributes for a list of identities
