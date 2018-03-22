@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSendStatistics&k=1:
+  /?Action=GetSendStatistics:
     get:
       summary: ' Get Send Statistics '
       description: Returns the user's sending statistics
