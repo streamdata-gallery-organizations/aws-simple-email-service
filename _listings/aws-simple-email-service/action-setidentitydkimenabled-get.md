@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetIdentityDkimEnabled&k=1:
+  /?Action=SetIdentityDkimEnabled:
     get:
       summary: ' Set Identity Dkim Enabled '
       description: |-
