@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=VerifyEmailAddress&k=1:
+  /?Action=VerifyEmailAddress:
     get:
       summary: ' Verify Email Address '
       description: Verifies an email address
