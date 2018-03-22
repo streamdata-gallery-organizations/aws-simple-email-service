@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateReceiptRule&k=1:
+  /?Action=UpdateReceiptRule:
     get:
       summary: ' Update Receipt Rule '
       description: Updates a receipt rule
