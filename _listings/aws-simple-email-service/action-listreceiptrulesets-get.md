@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListReceiptRuleSets&k=1:
+  /?Action=ListReceiptRuleSets:
     get:
       summary: ' List Receipt Rule Sets '
       description: Lists the receipt rule sets that exist under your AWS account
