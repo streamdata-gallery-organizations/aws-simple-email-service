@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReceiptFilter&k=1:
+  /?Action=DeleteReceiptFilter:
     get:
       summary: ' Delete Receipt Filter '
       description: Deletes the specified IP address filter
