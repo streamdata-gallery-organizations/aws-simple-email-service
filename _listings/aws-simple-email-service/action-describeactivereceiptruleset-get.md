@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeActiveReceiptRuleSet&k=1:
+  /?Action=DescribeActiveReceiptRuleSet:
     get:
       summary: ' Describe Active Receipt Rule Set '
       description: Returns the metadata and receipt rules for the receipt rule set
