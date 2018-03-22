@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListVerifiedEmailAddresses&k=1:
+  /?Action=ListVerifiedEmailAddresses:
     get:
       summary: ' List Verified Email Addresses '
       description: Returns a list containing all of the email addresses that have
