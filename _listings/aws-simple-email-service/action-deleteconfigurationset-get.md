@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConfigurationSet&k=1:
+  /?Action=DeleteConfigurationSet:
     get:
       summary: ' Delete Configuration Set '
       description: Deletes a configuration set
