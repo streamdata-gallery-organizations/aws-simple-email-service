@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetIdentityFeedbackForwardingEnabled&k=1:
+  /?Action=SetIdentityFeedbackForwardingEnabled:
     get:
       summary: ' Set Identity Feedback Forwarding Enabled '
       description: Given an identity (an email address or a domain), enables or disables
