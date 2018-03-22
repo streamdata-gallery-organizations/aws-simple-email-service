@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetIdentityNotificationTopic&k=1:
+  /?Action=SetIdentityNotificationTopic:
     get:
       summary: ' Set Identity Notification Topic '
       description: |-
