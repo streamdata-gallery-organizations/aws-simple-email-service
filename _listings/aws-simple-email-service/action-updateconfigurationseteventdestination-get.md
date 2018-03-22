@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateConfigurationSetEventDestination&k=1:
+  /?Action=UpdateConfigurationSetEventDestination:
     get:
       summary: ' Update Configuration Set Event Destination '
       description: Updates the event destination of a configuration set
