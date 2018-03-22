@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetIdentityNotificationAttributes&k=1:
+  /?Action=GetIdentityNotificationAttributes:
     get:
       summary: ' Get Identity Notification Attributes '
       description: Given a list of verified identities (email addresses and/or domains),
