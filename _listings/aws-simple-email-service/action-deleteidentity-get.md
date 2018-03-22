@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteIdentity&k=1:
+  /?Action=DeleteIdentity:
     get:
       summary: ' Delete Identity '
       description: Deletes the specified identity (an email address or a domain) from
