@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListIdentityPolicies&k=1:
+  /?Action=ListIdentityPolicies:
     get:
       summary: ' List Identity Policies '
       description: Returns a list of sending authorization policies that are attached
