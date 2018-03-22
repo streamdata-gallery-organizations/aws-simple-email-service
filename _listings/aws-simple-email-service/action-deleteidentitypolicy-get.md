@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteIdentityPolicy&k=1:
+  /?Action=DeleteIdentityPolicy:
     get:
       summary: ' Delete Identity Policy '
       description: Deletes the specified sending authorization policy for the given
