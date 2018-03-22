@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetIdentityDkimAttributes&k=1:
+  /?Action=GetIdentityDkimAttributes:
     get:
       summary: ' Get Identity Dkim Attributes '
       description: Returns the current status of Easy DKIM signing for an entity
