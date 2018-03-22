@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetIdentityHeadersInNotificationsEnabled&k=1:
+  /?Action=SetIdentityHeadersInNotificationsEnabled:
     get:
       summary: ' Set Identity Headers In Notifications Enabled '
       description: "Given an identity (an email address or a domain), sets whether
