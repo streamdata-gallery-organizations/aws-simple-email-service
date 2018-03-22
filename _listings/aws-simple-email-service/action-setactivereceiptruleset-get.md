@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetActiveReceiptRuleSet&k=1:
+  /?Action=SetActiveReceiptRuleSet:
     get:
       summary: ' Set Active Receipt Rule Set '
       description: Sets the specified receipt rule set as the active receipt rule
