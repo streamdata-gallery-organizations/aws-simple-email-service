@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-simple-email-service.api.streamdata.gallery
+title: Streamdata Gallery AWS Simple Email Service
+url: aws-simple-email-service.streamdata.gallery
 tag: AWS Simple Email Service
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-simple-email-service
 github_branch: master
 collections:
