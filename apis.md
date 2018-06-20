@@ -5,7 +5,7 @@ description: This is a repository of aws simple email service APIs, self-contain
   surrounding operations.
 image: http://template.streamdata.gallery/assets/aws-simple-email-service.png
 created: "2018-02-24"
-modified: "2018-05-24"
+modified: "2018-06-20"
 url: http://aws-simple-email-service.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []

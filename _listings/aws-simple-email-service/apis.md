@@ -7,10 +7,10 @@ description: Amazon Simple Email Service (Amazon SES) is a cost-effective email 
   minimum commitments &ndash; you pay as you go, and you only pay for what you use.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Simple Email Service
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-simple-email-service/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
 apis:
